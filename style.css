@@ -1,0 +1,57 @@
+body{
+    background-image: url(./Web_Photo_Editor.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
+    text-align: center;
+}
+.box{
+    width: 250px;
+    border: 2px solid white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    backdrop-filter: blur(100);
+}
+input{
+    width: 200px;
+    height: 32px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 2px solid darkcyan;
+    border-radius: 5px;
+    padding: 5px;
+}
+button{
+    height: 32px;
+    width: 72px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(135, 207, 235, 0.582);
+}
+
+button:hover{
+    background-color: rgba(0, 0, 139, 0.67);
+    color: white;
+}
+
+#discountvalue{
+    font-size: 32px;
+    background-color: darkblue;
+}
+
+
+@media (max-width:768px) {
+    body{
+        color: darkblue;
+        background-image: url('./jeans.png');
+        background-size: cover;
+    }
+    #discountvalue{
+        background-color: white;
+    }
+
+}
